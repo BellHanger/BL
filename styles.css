@@ -1,0 +1,156 @@
+/*==========================Tag Selectors=========================*/
+body{
+  text-align: center;
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
+  color: #40514e;
+  font-family: serif;
+  font-weight: 200;
+}
+
+
+h1{
+  color:  #66BFBF;
+  margin: 50px auto 50px auto;
+  font-size: 462.5%;
+  font-style: oblique;
+  font-family:fantasy;
+  line-height: 2;
+}
+
+h2{
+  color: gray;
+  font-size: 2.5rem;
+  font-family: fantasy;
+  font-weight: normal;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: gray;
+  font-family: fantasy;
+  font-weight: normal;
+}
+hr{
+  border-color: white;
+  border-style: dotted none none none;
+
+  border-width: 5px;
+  width: 10%;
+}
+
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:gray;
+}
+/*==========================Class Selectors=========================*/
+.purpclass{
+  background-color:#E6DDC4;
+}
+.s1{
+  padding-top: 100px;
+  font-family: sans-serif;
+  background-color: mediumpurple;
+  margin: 0;
+
+}
+
+.s2{
+  /*padding-top: 50px;
+  margin: 0;*/
+  font-family: sans-serif;
+  background-color: cyan;
+  text-align: center;
+
+}
+
+.s3{
+
+  font-family: monospace;
+  font-size: 1.2rem;
+  background-color: green;
+  color: #E6DDC4;
+  display: block;
+  padding-top: 5%;
+}
+
+.profile{
+  width: 30%;
+  margin:auto;
+}
+
+.footer-link{
+  color: #E6DDC4;
+}
+
+.tm{
+  color: #E6DDC4;
+}
+
+.topCloud{
+  display: inline-block;
+
+}
+.botCloud{
+  display: inline-block;
+  position: absolute;
+}
+.skill-row{
+  margin:100px auto 100px auto;
+  width:50%;
+  text-align: left;
+  line-height: 2;
+}
+.skillPic0{
+  width:25%;
+  margin-right: 2rem;
+  float:left;
+}
+  .skillPic1{
+    width:25%;
+    margin-right: 2rem;
+    float:right;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 40px auto 40px;
+}
+/*
+.skillDescription1{
+  clear:right;
+}*/
+
+.btn {
+  background: #59b559;
+  background-image: -webkit-linear-gradient(top, #59b559, #3498db);
+  background-image: -moz-linear-gradient(top, #59b559, #3498db);
+  background-image: -ms-linear-gradient(top, #59b559, #3498db);
+  background-image: -o-linear-gradient(top, #59b559, #3498db);
+  background-image: linear-gradient(to bottom, #59b559, #3498db);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #F0E9D2;
+  font-size: 26px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/*==========================ID Selectors=========================*/
